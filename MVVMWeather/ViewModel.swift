@@ -25,6 +25,7 @@ class WeatherViewModel: ObservableObject {
         let task = URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data, error == nil else {
                 return
+                // testando o git apenas
             }
     }
         task.resume()
